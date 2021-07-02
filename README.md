@@ -12,5 +12,5 @@ Running the project -
 1. Open the directory
 2. Change the branch by - git checkout master
 3. Start cmd and type - python manage.py runserver
-4. Open the app at http://127.0.0.1:8000/
+4. Open the app at http://127.0.0.1:8080/
  
