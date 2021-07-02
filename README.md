@@ -1,8 +1,8 @@
 # blog-scrapper
 prerequisites -
-Python 3 or higher
-1.django 
-2.requests
+1. Python 3 or higher
+1. django 
+2. requests
 
 Git clone -
 1. git clone https://github.com/tharani-shubh/blog-scrapper.git
