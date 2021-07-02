@@ -1,0 +1,313 @@
+input[type=text]{
+
+    width: 40%;
+    padding: 15px 15px;
+    margin: 10px 25%;
+    box-sizing: border-box;
+    border-bottom:  3px solid orange;
+    border-radius: 2px;
+  }
+  input[type=submit]{
+    transition: width 0.4s ease-in-out;
+    width: 20%;
+    padding: 10px 10px;
+    margin: 5px 40%;
+    box-sizing: border-box;
+    background-color: tomato;
+    color: #ffebe6;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.4s;
+  
+  }
+  input[type=submit]:hover{
+    background-color: #ffebe6;
+    color:tomato;
+    transition: 0.4s;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  3px solid tomato;
+  }
+  body{
+    background-color: #333333;
+  
+  }
+  a
+  {
+      position: relative;
+      display: inline-block;
+      padding: 15px 30px;
+      color: tomato;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 24px;
+      overflow: hidden;
+      transition: 0.3s;
+  
+  }
+  a:hover
+  {
+      color: #ffebe6;
+      background: tomato;
+      box-shadow: 0 0 10px tomato, 0 0 30px tomato, 0 0 60px tomato;
+      transition-delay: 1s;
+  }
+  a span
+  {
+      position: absolute;
+      display: block;
+  }
+  a span:nth-child(1)
+  {
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg,transparent,tomato);
+  }
+  a:hover span:nth-child(1)
+  {
+      left: 100%;
+      transition: 1s;
+  }
+  a span:nth-child(2)
+  {
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg,transparent,tomato);
+  }
+  a:hover span:nth-child(2)
+  {
+      right: 100%;
+      transition: 1s;
+      transition-delay: 0.5s;
+  }
+  a span:nth-child(3)
+  {
+      top: -100℅;
+      right: 0%;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,tomato);
+  }
+  a:hover span:nth-child(3)
+  {
+      top: 100%;
+      transition: 1s;
+      transition-delay: 0.25s;
+  }
+  a span:nth-child(4)
+  {
+      bottom: -100℅;
+      left: 0%;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,tomato);
+  }
+  a:hover span:nth-child(4)
+  {
+      bottom: 100%;
+      transition: 1s;
+      transition-delay: 0.75s;
+  }
+  
+  .no-js #loader { display: none;  }
+  .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+  .se-pre-con {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+  }
+  .main{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+  }
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    text-align: center;
+    background: tomato;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+  }
+  .header a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffebe6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    transition: 0.3s;
+  
+  }
+  .header a:hover
+  {
+    color: #333333;
+    background: #ffebe6;
+    box-shadow: 0 0 10px #ffebe6, 0 0 30px #ffebe6, 0 0 60px #ffebe6;
+    transition-delay: 1s;
+  }
+  .header a span
+  {
+    position: absolute;
+    display: block;
+  }
+  .header a span:nth-child(1)
+  {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffebe6);
+  }
+  .header a:hover span:nth-child(1)
+  {
+    left: 100%;
+    transition: 1s;
+  }
+  .header a span:nth-child(2)
+  {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffebe6);
+  }
+  .header a:hover span:nth-child(2)
+  {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+  .header a span:nth-child(3)
+  {
+    top: -100℅;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffebe6);
+  }
+  .header a:hover span:nth-child(3)
+  {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  .header a span:nth-child(4)
+  {
+    bottom: -100℅;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffebe6);
+  }
+  .header a:hover span:nth-child(4)
+  {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+  
+  
+  select {
+    width: 180px;
+    text-align: center;
+    height: 35px;
+    font-size: 15px;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: white;
+    //#ffebe6;
+    border: none;
+    border-bottom: 3px solid orange;
+    border-radius: 2px;
+    padding: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    align-content: center;
+    margin-left: 82.5px;
+    margin-right: 82.5px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+  }
+  
+  select:hover,
+  select:focus {
+    color: whitesmoke;
+    background-color: tomato;
+    border-bottom-color: white;
+    box-shadow: 0 0 1px tomato, 0 0 5px tomato, 0 0 10px tomato;
+  
+  }
+  
+  .title {
+    display: inline-block;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+  text-align: center;
+  padding: 5px 5px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 1px tomato, 0 0 3px tomato, 0 0 3px tomato;
+    border-bottom: 5px solid whitesmoke;
+    border-right: 2.5px solid whitesmoke;
+    box-shadow: 0 0 1px tomato, 0 0 7px tomato, 0 0 15px tomato;
+    background: linear-gradient(tomato,#333333);
+  
+  }
+  
+  
+  
+  .upper select {
+    width: 90px;
+    text-align: center;
+    height: 35px;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid orange;
+    border-radius: 2px;
+    padding: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2px;
+    margin-top: 8px;
+  }
+  
+  .upper select:hover,
+  .upper select:focus {
+    color: whitesmoke;
+    background-color: tomato;
+    border-bottom-color: white;
+    box-shadow: 0 0 1px tomato, 0 0 5px tomato, 0 0 10px tomato;
+  
+  }
+  
